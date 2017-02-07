@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btnViewMap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Map"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnListen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen"
+        android:textAllCaps="false" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult" />
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:textAllCaps="false" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgResult" />
+</LinearLayout>

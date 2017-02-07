@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btnCallHome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CallHome" />
+    <Button
+        android:text="Notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNotify" />
+    <Button
+        android:text="Download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDownloadWeb" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView" />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker1"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+</LinearLayout>
